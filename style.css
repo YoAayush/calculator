@@ -1,0 +1,56 @@
+body{
+    background: url(thumb-1920-377804.jpg);
+}
+h1{
+    text-align: center;
+    color: whitesmoke;
+}
+.ghj{
+    width: fit-content;
+    margin: 2rem auto;
+    padding: 1%;
+}
+.text{
+    width: fit-content;
+}
+#txt{
+    width: 80%;
+    height: 3rem;
+    border-color: antiquewhite;
+    border-radius: 10px;
+    background: none;
+    color: antiquewhite;
+    text-align: right;
+    font-size: 35px;
+    margin: 0 auto;
+    display: flex;
+}
+.row{
+    margin-top: 0.5rem;
+}
+.btn{
+    width: 60px;
+    height: 60px;
+    border: 1% solid black;
+    border-radius: 11px;
+    cursor: pointer;
+    background: url(download.jpg);
+    margin: 0 1rem;
+}
+.dfg{
+    width: fit-content;
+    margin: auto;
+}
+.l{
+    width: 155px;
+}
+
+@media screen and (max-width : 450px){
+    #txt{
+        margin-bottom: 2rem;
+        width: 85%;
+    }
+    .ghj{
+        margin: 12rem auto;
+    }
+}
